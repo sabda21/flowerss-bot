@@ -1,10 +1,10 @@
-bot_token:
-telegraph_token:
-telegraph_account:
-telegraph_author_name:
-telegraph_author_url:
-socks5:
-update_interval: 10
+bot_token:5509929937:AAG7y_yNQeehFeurWKQ7GwbAhCvWts93VCI
+#telegraph_token:
+#telegraph_account:
+#telegraph_author_name:
+#telegraph_author_url:
+#socks5:
+update_interval: 1
 user_agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
 
 mysql:
@@ -27,3 +27,10 @@ sqlite:
   path: ./data.db
 
 allowed_users:
+- 1454043499
+- -1001696027685
+- -1001358645122
+- 1246582899
+
+message_mode: md
+message_tpl: /mirror {{.RawLink}}
